@@ -36,7 +36,7 @@ export default function Navbar() {
 				</div>
 				<div className='hidden lg:flex lg:gap-x-12'>
 					<a
-						href='/'
+						href='/#'
 						className='text-md font-semibold leading-6 text-gray-900  hover:text-green-700'>
 						Home
 					</a>
@@ -95,8 +95,9 @@ export default function Navbar() {
 						<div className='-my-6 divide-y divide-gray-500/10'>
 							<div className='space-y-2 py-6 px-5'>
 								<a
-									href='/'
-									className='-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50'>
+									href='/#'
+									className='-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50'
+									onClick={() => setMobileMenuOpen(!mobileMenuOpen)}>
 									Home
 								</a>
 								{/* <a
