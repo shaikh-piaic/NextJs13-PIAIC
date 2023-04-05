@@ -94,12 +94,12 @@ export default function Navbar() {
 						About
 					</a> */}
 					<a
-						href='#availableProgram'
+						href='/#availableProgram'
 						className='text-md font-semibold leading-6 text-gray-900 hover:text-green-700'>
 						Available Programs
 					</a>
 					<a
-						href='#WITSection'
+						href='/#WITSection'
 						className='text-md font-semibold leading-6 text-gray-900 hover:text-green-700'>
 						WIT
 					</a>
@@ -153,12 +153,12 @@ export default function Navbar() {
 									About
 								</a> */}
 								<a
-									href='#availableProgram'
+									href='/#availableProgram'
 									className='-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50'>
 									Available Programs
 								</a>
 								<a
-									href='#WITSection'
+									href='/#WITSection'
 									className='-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50'>
 									WIT
 								</a>
