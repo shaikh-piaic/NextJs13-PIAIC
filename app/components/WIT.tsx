@@ -1,4 +1,3 @@
-import logo from "@/public/WIT-Logo.webp";
 import wit1 from "@/public/wit-1.jpeg";
 import wit2 from "@/public/wit-2.jpeg";
 import wit3 from "@/public/wit-3.jpeg";
@@ -17,7 +16,6 @@ const WIT = () => {
 		<section id='WITSection' className=' h-auto bg-gray-50 px-5 md:px-16'>
 			<div className='max-w-screen-xl mx-auto'>
 				<div className='w-full flex flex-col object-center items-center justify-center py-24'>
-					{/* <Image src={logo.src} width={300} height={350} alt='' /> */}
 					<h1 className='text-xl font-semibold mt-6 mb-8 md:text-3xl lg:text-4xl md:text-center text-green-500 uppercase'>
 						WOMEN INCLUSION IN TECHNOLOGY
 					</h1>

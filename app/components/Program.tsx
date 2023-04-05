@@ -17,7 +17,6 @@ const Program = () => {
 				<h2 className='text-xl  font-semibold mt-6 mb-8 md:text-3xl lg:text-4xl  md:text-center text-green-500 uppercase'>
 					Available Programs
 				</h2>
-				{/* <div className='grid grid-cols-1 md:grid-cols-2 md:gap-x-12 lg:gap-x-12 xl:gap-y-10 xl:gap-x-8 gap-y-14 lg:grid-cols-3'> */}
 				<div className='grid grid-cols-1 md:grid-cols-2 gap-4 lg:grid-cols-3'>
 					<Link href={"/courses/ai"}>
 						<div className='flex flex-col items-center relative justify-center bg-white px-2 py-6  group overflow-hidden rounded-2xl transform lg:transition lg:duration-500 lg:hover:scale-105 shadow lg:hover:shadow-lg cursor-pointer mx-0'>
